@@ -1,0 +1,42 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenCarrigan/oauth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenCarrigan/oauth/issues"
+  },
+  "homepage": "https://github.com/JenCarrigan/oauth#readme",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^3.0.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "jest": "^23.6.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "require-dir": "^1.2.0",
+    "superagent": "^4.0.0"
+  }
+}
